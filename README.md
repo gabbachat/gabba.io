@@ -1,2 +1,2 @@
-# gabba
-Information about your app should go here.
+# Gabba.io
+Repository for the [gabba.io](gabba.io) website.
