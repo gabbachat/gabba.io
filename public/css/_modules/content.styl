@@ -1,0 +1,89 @@
+nav.main
+  position absolute
+  left 5%
+  right 5.5%
+  top 1em
+
+  .logo
+    margin-top 0.8em
+
+  ul
+    float right
+    margin 0
+    padding 0
+
+    li
+      color rgba(255,255,255,1)
+      display inline-block
+      list-style none
+      margin 0
+      padding 10px 20px
+      transition all 0.5s ease
+
+      &:hover
+        color rgba(255,255,255,0.5)
+        cursor pointer
+
+      &.login
+        background-color rgba(75,5,30,0.7)
+        border-radius 3px 10px
+        color rgba(255,255,255,1)
+
+        &:hover
+          background-color rgba(75,5,30,1)
+          cursor pointer
+
+.hero
+  position absolute
+  left 5%
+  right 5%
+  top 8em
+  text-align center
+
+
+
+.slogan
+    $rem(25px)
+    margin-top 1.5em
+
+
+.atmos
+  background url(../img/atmos.png) no-repeat center center
+  -webkit-background-size contain
+  -moz-background-size contain
+  -o-background-size contain
+  background-size contain
+  display block
+  margin-left 5%
+  margin-top 2em
+  width 90%
+  height 279px
+
+
+.soon
+  position fixed
+  right 0
+  bottom 0
+  z-index 10
+
+@media (min-width: 600px)
+
+  .hero
+    text-align left
+    right 0%
+
+  .promo
+    width 60%
+
+  .atmos
+    position absolute
+    margin-top -10em
+    background url(../img/atmos.png) no-repeat top left
+    -webkit-background-size fit
+    -moz-background-size fit
+    -o-background-size fit
+    background-size fit
+    // float right
+    right 0px
+    width 55%
+    height 379px
